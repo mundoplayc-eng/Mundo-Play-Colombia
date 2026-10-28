@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#211a45">
+  <title>Mundo Play | Catálogo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand-mark">MP</div>
+    <div>
+      <div class="brand-name">MUNDO PLAY</div>
+      <div class="tagline">Todo tu entretenimiento, en un solo lugar.</div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">TU PRÓXIMA MARATÓN EMPIEZA AQUÍ</p>
+      <h1>Tu entretenimiento,<br><span>a un clic.</span></h1>
+      <p class="hero-copy">Explora el catálogo de Mundo Play y consulta las condiciones del producto antes de comprar.</p>
+    </section>
+
+    <section class="catalog">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">CATÁLOGO</p>
+          <h2>Productos digitales</h2>
+        </div>
+        <span class="count">1 producto</span>
+      </div>
+
+      <article class="product-card">
+        <div class="product-art" aria-label="Tarjeta visual de Netflix">
+          <span class="netflix-n">N</span>
+          <span class="product-label">ENTRETENIMIENTO</span>
+        </div>
+        <div class="product-info">
+          <p class="product-type">ACCESO DIGITAL</p>
+          <h3>Netflix</h3>
+          <p class="product-description">Revisa la modalidad, vigencia y condiciones exactas disponibles antes de realizar tu pedido.</p>
+          <div class="price-row">
+            <span class="price">$15.000 <small>COP</small></span>
+          </div>
+          <button id="buy-button" type="button">Solicitar compra</button>
+          <p class="fine-print">La compra no se procesa todavía. Este es un prototipo visual; no cobra ni entrega credenciales.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="trust">
+      <div class="trust-item"><span>01</span><div><strong>Pedido identificado</strong><p>Cada pedido deberá tener un código único.</p></div></div>
+      <div class="trust-item"><span>02</span><div><strong>Pago verificado</strong><p>La entrega solo se habilitará tras verificar el pago en el servidor.</p></div></div>
+      <div class="trust-item"><span>03</span><div><strong>Entrega privada</strong><p>Los datos de acceso nunca se publicarán en el catálogo.</p></div></div>
+    </section>
+  </main>
+
+  <footer>
+    <strong>Mundo Play</strong>
+    <p>Soporte al cliente · Condiciones de compra · Política de privacidad</p>
+    <p class="footer-note">Prototipo de demostración. No procesa pagos ni entrega productos.</p>
+  </footer>
+
+  <dialog id="notice">
+    <div class="dialog-content">
+      <button class="close" id="close-dialog" aria-label="Cerrar">×</button>
+      <p class="eyebrow">MUNDO PLAY</p>
+      <h2>Estamos preparando las compras online</h2>
+      <p>Este prototipo aún no recibe pagos. Antes de habilitar las compras, confirmaremos las condiciones del producto y conectaremos un sistema seguro de pago y entrega.</p>
+      <button id="ok-dialog" type="button">Entendido</button>
+    </div>
+  </dialog>
+  <script src="app.js"></script>
+</body>
+</html>
